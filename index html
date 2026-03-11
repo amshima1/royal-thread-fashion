@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Royal Thread Fashion House</title>
+</head>
+
+<body>
+
+<h1>Royal Thread Fashion House</h1>
+
+<marquee>Welcome to Royal Thread Fashion House Website</marquee>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="trustees.html">Trustees</a>
+<a href="appointments.html">Appointments</a>
+<a href="events.html">Events</a>
+</nav>
+
+<p>Welcome to our fashion house website.</p>
+
+</body>
+</html>
