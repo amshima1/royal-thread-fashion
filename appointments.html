@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appointments | Royal Thread</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Royal Thread Fashion House</h1></header>
+    <div class="marquee-bar"><marquee>✨ Book your private fitting session today! ✨</marquee></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="trustees.html">Trustees</a>
+        <a href="appointments.html">Appointments</a>
+        <a href="events.html">Events</a>
+    </nav>
+    <main class="container">
+        <h2>Book an Appointment</h2>
+        <form onsubmit="confirmBooking(); return false;">
+            <label>Full Name:</label><br>
+            <input type="text" required style="width:100%; padding:8px; margin:10px 0;"><br>
+            <label>Service Type:</label><br>
+            <select style="width:100%; padding:8px; margin:10px 0;">
+                <option>Bespoke Tailoring</option>
+                <option>Wedding Consultation</option>
+                <option>Fabric Selection</option>
+            </select><br>
+            <button type="submit" style="background:#2c3e50; color:white; padding:10px 20px; border:none; cursor:pointer;">Confirm Booking</button>
+        </form>
+    </main>
+    <footer><p>&copy; 2026 Royal Thread Fashion House</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
