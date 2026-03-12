@@ -73,23 +73,21 @@ nav {
 
 .btn {
     display: inline-block;
-    padding: 15px 45px;
-    border: 2px solid #000; /* Bold black border like Orange Culture */
+    padding: 15px 40px;
+    border: 2px solid #000; /* Bold black border */
     color: #000;            /* Black text */
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 800;       /* Makes the text bold */
-    letter-spacing: 3px;    /* Adds space between letters for a premium feel */
-    margin-top: 25px;
-    transition: all 0.3s ease;
+    font-weight: 900;
+    letter-spacing: 3px;
     background-color: transparent;
+    transition: 0.3s ease;
 }
-
-/* This makes the button invert colors when you hover over it */
 .btn:hover {
     background-color: #000;
     color: #fff;
 }
+
 
 
 /* CONTENT SECTIONS */
