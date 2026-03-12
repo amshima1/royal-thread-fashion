@@ -1,68 +1,80 @@
-/* style.css - Royal Thread Fashion House */
-:root {
-    --primary: #2c3e50;
-    --accent: #d4af37; /* Gold color for fashion */
-    --light: #ecf0f1;
-}
-
+/* Modern Fashion House CSS */
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: var(--light);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    background-color: #fff;
 }
 
-header {
-    background: var(--primary);
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
+/* Minimalist Navigation */
 nav {
-    background: #34495e;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
+.logo {
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
 nav a {
-    display: inline-block;
-    color: white;
-    padding: 15px 20px;
     text-decoration: none;
-    font-weight: bold;
+    color: #000;
+    margin-left: 15px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-nav a:hover {
-    background: var(--accent);
-    color: var(--primary);
-}
-
-.marquee-bar {
-    background: var(--accent);
-    color: black;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-footer {
+/* Big Hero Image Section */
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+                url('fashion-workshop.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
     text-align: center;
-    padding: 20px;
-    background: var(--primary);
-    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Section Spacing */
+section {
+    padding: 60px 10%;
+    text-align: center;
 }
