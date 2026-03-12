@@ -1,3 +1,63 @@
+/* Red Gradient Top Bar */
+.top-announcement {
+    background: linear-gradient(to right, #f8a170, #d40000);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #fffdf9; /* Creamy luxury background */
+    border-bottom: 1px solid #eee;
+}
+
+/* The 3-Line Icon */
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+}
+
+.logo {
+    font-family: 'Serif', Georgia, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #b30000; /* Matching the red logo vibe */
+}
+
+/* Hidden Menu Styling */
+.nav-menu {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-bottom: 2px solid #b30000;
+}
+
+.nav-menu.active {
+    display: flex; /* Shows when clicked */
+}
+
+.nav-menu a {
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+}
+
 /* Center the New Arrivals section */
 .new-arrivals {
     text-align: center;
