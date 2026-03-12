@@ -60,10 +60,25 @@
 
 /* Center the New Arrivals section */
 .new-arrivals {
-    text-align: center;
-    padding: 40px 10px;
-    background-color: #f9f9f9; /* Light luxury grey background */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
+
+.product-box {
+    text-align: center;
+    max-width: 300px;
+}
+
+.product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 
 .product-box {
     margin-bottom: 30px;
