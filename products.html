@@ -7,15 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>Royal Thread Fashion House</h1></header>
-    <div class="marquee-bar"><marquee>✨ Explore our Premium Silk and Bespoke Suit Collections ✨</marquee></div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="trustees.html">Trustees</a>
-        <a href="appointments.html">Appointments</a>
-        <a href="events.html">Events</a>
+    <header class="site-header">
+    <div class="top-announcement">
+        ✨ Exclusive New Year Collection launching soon! | Book your bespoke fitting today! ✨
+    </div>
+    
+    <nav class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">ROYAL THREAD</div>
+        <div class="header-icons">
+            <span class="icon">🔍</span>
+            <span class="icon">👜</span>
+        </div>
     </nav>
+
+    <div id="navLinks" class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="products.html">Product Showcase</a>
+        <a href="trustees.html">Board Trustees</a>
+        <a href="appointments.html">Appointments</a>
+        <a href="events.html">Upcoming Events</a>
+    </div>
+</header>
+
     <main class="container">
         <h2>Our Collection</h2>
         <div class="grid">
